@@ -8,7 +8,7 @@ export default function InvoiceViewer() {
   useEffect(() => {
     console.log('here');
 
-    fetch('http://localhost:5240/api/Invoice')
+    fetch('https://thinkbridgeinvoiceapi.azurewebsites.net')
       .then((resp) => {
         if (!resp.ok) throw new Error('Network response was not ok');
         return resp.json();
