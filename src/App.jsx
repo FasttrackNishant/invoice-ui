@@ -5,7 +5,9 @@ import InvoicePage from './InvoicePage'
 const App = () => {
   return (
     <div>
-      <InvoicePage/>
+      {/* <InvoicePage/> */}
+
+      <InvoiceViewer/>
     </div>
   )
 }
